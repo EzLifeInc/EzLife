@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EzLife — Join the Movement</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #00b4db, #0083b0);
+      color: white;
+      text-align: center;
+    }
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 30px;
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 15px;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #ffcc00;
+      color: black;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 10px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    h1 {
+      font-size: 36px;
+    }
+    p {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>EzLife is Coming.</h1>
+    <p>Join the waitlist — be the first to monetize what you love & know.</p>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <select name="what_do_you_do">
+        <option value="">What do you love to do/create or know?</option>
+        <option>Music / Production</option>
+        <option>Fitness / Wellness</option>
+        <option>Art / Design</option>
+        <option>Tech / Coding</option>
+		<option>Movies / Cinematography</option>
+        <option>Other</option>
+      </select>
+      <textarea name="why_join" placeholder="Why do you want to join EzLife?" rows="3"></textarea>
+      <button type="submit">Join the Waitlist</button>
+    </form>
+  </div>
+</body>
+</html>
